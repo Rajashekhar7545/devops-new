@@ -14,8 +14,8 @@ pipeline {
                     sh "ls -al"
              stage ("3. create a user") {
                  steps{
-                     sh "useradd raj"
-                     sh "getent passwd raj"
+                     sh "cat > raj.txt"
+                     sh "ls -al"
                         }  
                      }
                 }
