@@ -12,13 +12,9 @@ pipeline {
                 steps{
                     sh "touch test-file.txt"
                     sh "ls -al"
-             stage ("3. create a file") {
-                 steps{
-                     sh "cat > raj.txt"
-                     sh "ls -al"
+             
                         }  
                      }
                 }
             }
-        }
-}
+        
